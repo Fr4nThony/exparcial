@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Protest Revolution, sans-serif;
+    background-color: #435c09;
+    color: rgb(253, 50, 50);
+    padding: 1em;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.logo {
+    width: 150px;
+    height: 60px;
+    border-radius: 50%;
+
+    }
+
+nav ul {
+    list-style: none;
+    padding: 40;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(20, 111, 163);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.inicio {
+    font-family: Dancing Script, sans-serif;
+    font-size: larger;
+    background-color: #f59352;
+    padding: 2rem 0;
+}
+
+.inicio-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border: 3px solid #ee2208;
+}
+
+
+.productos {
+    font-family: Dancing Script, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    background-color: #82a872;
+}
+
+.producto {
+    border: 1px solid #810101;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    background-color: #dfb5b5;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    margin-top: 0.5em;
+}
+
+.mapa {
+    background-color: #ffffff;
+    padding: 2em 0;
+}
+
+.mapa h2 {
+    margin-bottom: 1em;
+}
+
+
+footer {
+    background-color: #5a5656;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
